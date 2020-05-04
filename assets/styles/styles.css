@@ -1,0 +1,15 @@
+.avatar-ext {
+  height: 15vw;
+  width: 15vw;
+}
+.avatar {
+  flex: none;
+  max-width: none;
+}
+
+@media only screen and (max-width: 770px) {
+  .avatar-ext {
+    height: 35vw;
+    width: 35vw;
+  }
+}
