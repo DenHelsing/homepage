@@ -13,3 +13,7 @@
     width: 35vw;
   }
 }
+
+.contacts li:hover a {
+  color: dimgray;
+}
