@@ -1,0 +1,20 @@
+.avatar-ext {
+  height: 13vw;
+  width: 13vw;
+}
+
+.avatar {
+  flex: none;
+  max-width: none;
+}
+
+@media only screen and (max-width: 770px) {
+  .avatar-ext {
+    height: 35vw;
+    width: 35vw;
+  }
+}
+
+.contacts li:hover a {
+  color: dimgray;
+}
